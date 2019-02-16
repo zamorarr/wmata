@@ -12,6 +12,9 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
+
+[![Travis build status](https://travis-ci.org/zamorarr/wmata.svg?branch=master)](https://travis-ci.org/zamorarr/wmata)
+
 # wmata
 
 This package provides a R interface to the Washington Metropolitan Area Transit Authority (WMATA) [API](https://developer.wmata.com/)

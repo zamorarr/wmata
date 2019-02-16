@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![Travis build
+status](https://travis-ci.org/zamorarr/wmata.svg?branch=master)](https://travis-ci.org/zamorarr/wmata)
+
 # wmata
 
 This package provides a R interface to the Washington Metropolitan Area
@@ -23,16 +26,6 @@ str(j$Trains[1:3], 2)
 #> List of 3
 #>  $ :List of 9
 #>   ..$ Car            : chr "8"
-#>   ..$ Destination    : chr "Glenmont"
-#>   ..$ DestinationCode: chr "B11"
-#>   ..$ DestinationName: chr "Glenmont"
-#>   ..$ Group          : chr "1"
-#>   ..$ Line           : chr "RD"
-#>   ..$ LocationCode   : chr "A01"
-#>   ..$ LocationName   : chr "Metro Center"
-#>   ..$ Min            : chr "BRD"
-#>  $ :List of 9
-#>   ..$ Car            : chr "8"
 #>   ..$ Destination    : chr "Shady Gr"
 #>   ..$ DestinationCode: chr "A15"
 #>   ..$ DestinationName: chr "Shady Grove"
@@ -40,7 +33,17 @@ str(j$Trains[1:3], 2)
 #>   ..$ Line           : chr "RD"
 #>   ..$ LocationCode   : chr "A01"
 #>   ..$ LocationName   : chr "Metro Center"
-#>   ..$ Min            : chr "BRD"
+#>   ..$ Min            : chr "5"
+#>  $ :List of 9
+#>   ..$ Car            : chr "8"
+#>   ..$ Destination    : chr "Glenmont"
+#>   ..$ DestinationCode: chr "B11"
+#>   ..$ DestinationName: chr "Glenmont"
+#>   ..$ Group          : chr "1"
+#>   ..$ Line           : chr "RD"
+#>   ..$ LocationCode   : chr "A01"
+#>   ..$ LocationName   : chr "Metro Center"
+#>   ..$ Min            : chr "7"
 #>  $ :List of 9
 #>   ..$ Car            : chr "8"
 #>   ..$ Destination    : chr "Takoma"
@@ -50,7 +53,7 @@ str(j$Trains[1:3], 2)
 #>   ..$ Line           : chr "RD"
 #>   ..$ LocationCode   : chr "A01"
 #>   ..$ LocationName   : chr "Metro Center"
-#>   ..$ Min            : chr "6"
+#>   ..$ Min            : chr "18"
 ```
 
 A data frame with mappings from stations to station codes is provided as
