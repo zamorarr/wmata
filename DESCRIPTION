@@ -19,3 +19,5 @@ Imports:
     jsonlite
 Suggests: 
     tibble
+URL: https://github.com/zamorarr/wmata
+BugReports: https://github.com/zamorarr/wmata/issues
