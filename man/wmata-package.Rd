@@ -8,6 +8,14 @@
 \description{
 Provides an R API to the WMATA API.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/zamorarr/wmata}
+  \item Report bugs at \url{https://github.com/zamorarr/wmata/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Robert Zamora \email{zamora.rr@gmail.com}
 

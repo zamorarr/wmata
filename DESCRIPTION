@@ -18,6 +18,7 @@ Imports:
     httr,
     jsonlite
 Suggests: 
-    tibble
+    tibble,
+    spelling
 URL: https://github.com/zamorarr/wmata
 BugReports: https://github.com/zamorarr/wmata/issues
