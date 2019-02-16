@@ -1,0 +1,21 @@
+Package: wmata
+Title: WMATA API
+Version: 0.1.0
+Authors@R: 
+    person(given = "Robert",
+           family = "Zamora",
+           role = c("aut", "cre"),
+           email = "zamora.rr@gmail.com")
+Description: Provides an R API to the WMATA API.
+Depends: 
+  R (>= 3.1.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    httr,
+    jsonlite
+Suggests: 
+    tibble

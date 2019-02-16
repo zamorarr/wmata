@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# wmata
+
+This package provides a R interface to the Washington Metropolitan Area Transit Authority (WMATA) [API](https://developer.wmata.com/)
+
+## Usage
+You can use this interface to query the WMATA API. For example, you can get the real time predictions for train arrivals at Metro Center (code A01):
+
+```{r example}
+library(wmata)
+
+# get data
+j <- next_trains("A01")
+
+# show just the first 3 results
+str(j$Trains[1:3], 2)
+```
+
+A data frame with mappings from stations to station codes is provided as the object `stations`:
+
+```{r}
+head(stations[c("Code", "Name")], 10)
+```
+
+## Installation
+
+You can install the released version of wmata from [GitHub](https://github.com/zamorarr/wmata) with:
+
+```{r eval=FALSE}
+devtools::install_github("zamorarr/wmata")
+```
+
+You will also have to sign up for a WMATA developer key at [https://developer.wmata.com/](https://developer.wmata.com/). Once you get a key, edit your .Renviron file and place this line in there (replacing XXX with your key):
+
+```sh
+WMATA_KEY=XXXXXXX
+```
+
+You can use `usethis::edit_r_environ()` to edit your .Renviron file.
