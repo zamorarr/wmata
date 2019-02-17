@@ -14,4 +14,4 @@ new_wmata(json, path)
 \description{
 Create a new wmata object
 }
-\keyword{interndal}
+\keyword{internal}

@@ -57,7 +57,7 @@ wmata_api <- function(path, query = NULL) {
 #' Create a new wmata object
 #' @param json list data from json api
 #' @param path path to location of data
-#' @keywords interndal
+#' @keywords internal
 new_wmata <- function(json, path) {
   class(json) <- c("wmata_api", class(json))
   attr(json, "path") <- path
