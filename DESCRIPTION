@@ -20,5 +20,5 @@ Imports:
 Suggests: 
     tibble,
     spelling
-URL: https://github.com/zamorarr/wmata
+URL: https://github.com/zamorarr/wmata, https://zamorarr.github.io/wmata/
 BugReports: https://github.com/zamorarr/wmata/issues

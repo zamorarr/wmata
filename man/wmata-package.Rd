@@ -12,6 +12,7 @@ Provides an R API to the WMATA API.
 Useful links:
 \itemize{
   \item \url{https://github.com/zamorarr/wmata}
+  \item \url{https://zamorarr.github.io/wmata/}
   \item Report bugs at \url{https://github.com/zamorarr/wmata/issues}
 }
 
